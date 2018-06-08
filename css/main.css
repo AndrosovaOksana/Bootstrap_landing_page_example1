@@ -1,0 +1,203 @@
+/* HEADER */
+
+header {
+    /* height: 600px; */
+    background-image: url("../img/header-pict.png");
+    background-size: cover;
+}
+nav {
+    height: 80px;
+    line-height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+    font-family: "Museo Sans -700", sans-serif;
+}
+.logo {
+    font-family: "Museo Sans -700", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.menu li {
+    display: inline-block;
+    padding: 0 30px;
+}
+.menu li a {
+    color: #82868f;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    border-radius: 120px;
+}
+.menu li a:hover,
+.menu li a:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0ebfdd;
+}
+.logo {
+    padding-top: 28px;
+    text-transform: uppercase;
+    color: #82868f;
+}
+.logo:hover,
+.logo:focus {
+    text-decoration: none;
+    color: #82868f;
+}
+.title-block {
+    color: #fff;
+    text-align: center;
+    margin-top: 404px;
+    margin-bottom: 83px;
+}
+.star {
+    font-size: 15px;
+}
+
+/* TITLES AND PARAGRAPH */
+
+.title {
+    font-family: "Avenir - Heavy", sans-serif;
+    font-size: 44px;
+}
+.parag {
+    font-family: "Avenir", sans-serif;
+    font-size: 20px;
+}
+
+/* SECTION ABOUT */
+
+.section-about {
+    background-color: #fff; 
+}
+.about-block {
+    text-align: center;
+    height: 250px;
+    padding-top: 50px;
+}
+.about-block h2 {
+    color: #0ebfdd;
+}
+.about-block p {
+    color: #45494d;
+}
+
+/* SECTION TEAM */
+.team-section {
+    /* height: 600px; */
+    background-color: #0ebfdd;
+}
+.team-block {
+    text-align: center;
+    padding-top: 58px;
+}
+.team-block h2 {
+    margin-bottom: 106px;
+    color: #fff;
+}
+.team-item h4 {
+    font-family: "Avenir - Heavy", sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+.team-item span {
+    font-family: "Avenir - Oblique", sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
+.btn {
+    color: #fff;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background-color: #0ebfdd;
+    margin-top: 100px;
+    margin: 100px 0 25px;
+    height: 40px;
+    width: 180px;
+    text-transform: uppercase;
+    font-family: "Museo Sans -900", sans-serif;
+}
+.btn:hover,
+.btn:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* SECTION MAP */
+
+#map {
+    text-align: center;
+    height: 600px;    
+}
+.p0 {
+    padding: 0;
+}
+
+/* FOOTER */
+
+footer {
+    height: 120px;  
+}
+.main-footer {
+    padding-top: 36px;
+    background-color: #45494d;
+}
+.footer-item {
+    text-align: center;
+}
+.footer-item button {
+    margin: 0 10px;
+}
+.pt {
+    padding-top: 14px;
+}
+.footer-item a {
+   font-family: "Museo Sans -500", sans-serif; 
+   text-transform: uppercase;
+   color: #d7dee4;
+   font-size: 12px;
+   margin-right: 10px;
+}
+
+
+.soc_btn {
+    border: 1px solid #d7dee4;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    /* background-color: #45494d; */
+    background-color: transparent;
+}
+.soc_btn i {
+    color: #d7dee4;
+}
+.footer-line {
+    height: 1px;
+    background-color: #8a8d91;
+    opacity: 0.3;
+    padding: 0 30px;
+    text-align: center;
+    margin-top: 34px;
+}
+.copyright_block {
+    background-color: #45494d;
+    padding-top: 14px;
+}
+.copy-text a {
+    color: #73767a;
+    padding: 0 11px;
+    font-family: "Museo Sans -500", sans-serif;
+}
+.br {
+    border-right: 1px solid #73767a;
+}
+    

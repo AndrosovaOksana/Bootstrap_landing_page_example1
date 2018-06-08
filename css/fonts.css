@@ -1,0 +1,36 @@
+/* LOGO */
+@font-face {
+    font-family: "Museo Sans -700";
+    src: url("../fonts/ofont.ru_Museo\ Sans\ Cyrl\ 700.ttf");
+}
+/* Н2 названия параграфов и H4 в блоке TEAM*/
+@font-face {
+    font-family: "Avenir - Heavy";
+    src: url("../fonts/Avenir-Heavy.ttf");
+}
+
+
+@font-face {
+    font-family: "Avenir-Medium";
+    src: url("../fonts/ofont.ru_Avenir\ Next.ttf");
+}
+/* TEAM SPANS */
+@font-face {
+    font-family: "Avenir - Oblique";
+    src: url("../fonts/Avenir\ LT\ 35\ Light\ Oblique.ttf");
+}
+/* параграфы */
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/12\ Avenir\ 55\ Roman\ 05173.ttf");
+}
+/* BUTTON IN SECTION TEAM */
+@font-face {
+    font-family: "Museo Sans -900";
+    src: url("../fonts/ofont.ru_Museo\ Sans\ Cyrl\ 900.ttf");
+}
+/* FOOTE LINKS */
+@font-face {
+    font-family: "Museo Sans -500";
+    src: url("../fonts/MuseoSans_500.otf");
+}

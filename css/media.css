@@ -1,0 +1,143 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .menu {
+        font-size: 13px;
+    }
+    .menu li a {
+        padding: 9px 12px;
+    }
+    .team-block h2 {
+        margin-bottom: 65px;
+    }
+    .team-item {
+        margin-bottom: 30px;
+    }
+    .btn {
+        margin: 36px 0 25px;
+    }
+    .footer-item {
+        margin-top: 20px;
+    }
+    .pt {
+        padding-top: 0px;
+    }
+    .copy-text {
+        text-align: center;
+    }
+    #map {
+        height: 450px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    nav {
+        height: 60px;
+        line-height: 50px;
+        position: fixed;
+    }
+    .logo {
+        padding-top: 22px;
+    }
+    .menu_btn {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: #0ebfdd;
+        color: #fff;
+    }
+    .menu_btn span {
+        top: -13px; 
+    }
+    #top_menu {
+        background-color: #fff;
+    }
+    .menu li {
+        display: block;
+        text-align: center;
+    }
+    .menu li a {
+        padding: 14px 130px;
+    }
+    .team-block {
+        padding-top: 9px;
+    }
+    .team-block h2 {
+        margin-bottom: 40px;
+    }
+    .team-item {
+        margin-bottom: 40px;  
+    }
+    .btn {
+        margin: 15px 0 30px;
+    }
+    #map {
+        height: 400px;
+    }
+    .main-footer {
+        padding-top: 0;
+    }
+    .footer-item {
+        margin-top: 30px;
+    }
+    .footer-item a {
+        margin: 0 10px;
+    }
+    .footer-item button {
+        margin: 0 5px;
+    }
+    .copyright_block {
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .menu li a {
+        padding: 10px 50px;
+    }
+    .title-block {
+        margin: 198px 0 85px;
+    }
+    .title {
+        font-size: 35px; 
+    }
+    .parag {
+        font-size: 17px; 
+    }
+    .about-block {
+        padding-top: 10px;
+    }
+    #map {
+       height: 350px;
+   } 
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+    .menu li a {
+        padding: 10px 50px;
+    }
+    .title-block {
+        margin: 175px 0 114px;
+    }
+    .about-block {
+        padding-top: 10px;
+    }
+    .title {
+        font-size: 30px; 
+    }
+    .parag {
+        font-size: 15px; 
+    }
+    #map {
+       height: 300px;
+   } 
+
+}
